@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Stanley's Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">PORTFOLIO.</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testmonial</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Blog</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a> 
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">HI!</span>
+                <span class="down">I am Obitunwase Stanley</span>
+            </h1>
+            <p class="header-subtitle"> A FULL-STACK DEVELOPER</p>
+
+            <a href="#portfoli"><button class="btn btn-primary">Visit My Works</button></a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/Portoflio-pic.jpg" class="about-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I ?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hi! I’m Stanley Obitunwase, an aspiring full-stack developer currently studying at NIIT. I have a strong passion for both frontend and backend development. On the frontend, I enjoy creating intuitive and engaging user interfaces using HTML, CSS, and JavaScript. On the backend, I work with server-side technologies like Node.js and databases such as MongoDB to build robust and scalable applications. <br>  <br>
+                        My goal is to bridge the gap between design and functionality, ensuring seamless user experiences. I am committed to continuously learning and staying updated with the latest industry trends. In my free time, I enjoy exploring new technologies and working on personal projects that challenge my skills. <br>  <br>
+                        I look forward to connecting with professionals in the field and contributing to innovative projects.
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Do ?</p>
+            <h6 class="section-title mb-6">Service</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <!-- <img src="assets/imgs/pencil-case.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon"> -->
+                            <img class="icon" src="data:image/png;base64,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" alt="">    
+                            <h6 class="title">Front-End Design</h6>
+                            <p class="subtitle">I offer comprehensive front-end development services, including responsive web design, UI/UX design, and interactive web applications. My expertise in HTML and CSS ensures high-quality, well-designed websites that meet your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <!-- <img src="assets/imgs/responsive.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon"> -->
+                            <img class="icon" src="data:image/png;base64,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" alt="">    
+                            <h6 class="title">Back-End Developer</h6>
+                            <p class="subtitle">I provide comprehensive back-end development services, specializing in Java. My expertise includes server-side application development and efficient solutions tailored to your needs relating to back-end app creation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <!-- <img src="assets/imgs/toolbox.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon"> -->
+                            <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5rkH9nUQW6iJVHxdxM3ST815WaFXwGCYz1Q&s" alt="">    
+                            <h6 class="title">Database Management</h6>
+                            <p class="subtitle">I provide specialized database management services using SQL and MongoDB. My expertise includes designing, optimizing, and maintaining databases to ensure data integrity, security, and performance. I deliver scalable and efficient solutions tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
+                                class="icon">
+                            <h6 class="title">Iusto</h6>
+                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
+                                molestias dolorem iste quod.</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I Did ?</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="/meyawo-1.0.0/Facebook/Facebook.html" class="portfolio-card">
+                        <img src="assets/imgs/Screenshot (520).png" class="portfolio-card-img"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Facebook Design</h5>
+                                    <p class="font-weight-normal">Category: Front-End Design</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="backend.html" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Screenshot (280).png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Audio Player</h5>
+                                    <p class="font-weight-normal">Category: Back-end Developer</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="courtroom.html" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Screenshot (370).png" class="img-responsive rounded"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Courtroom Database</h5>
+                                    <p class="font-weight-normal">Category: Database Management</p>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- pricing section -->
+    <!-- <section class="section" id="pricing">
+        <div class="container text-center">
+            <p class="section-subtitle">How Much I Charge ?</p>
+            <h6 class="section-title mb-6">My Pricing</h6> -->
+            <!-- row -->
+            <!-- <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Free</h6>
+                        <div class="pricing-card-list">
+                            <p>accusamus reprehenderit</p>
+                            <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p><i class="ti-close"></i></p>
+                            <p><i class="ti-close"></i></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>0.00/Month</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Basic</h6>
+                        <div class="pricing-card-list">
+                            <p>accusamus reprehenderit</p>
+                            <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p>accusamus laboriosam</p>
+                            <p><i class="ti-close"></i></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>9.99/Month</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Premium</h6>
+                        <div class="pricing-card-list">
+                            <p>accusamus reprehenderit</p>
+                            <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p>accusamus laboriosam</p>
+                            <p>inventore omnis</p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>99.9/Month</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
+                </div> -->
+
+            <!-- </div>end of pricing wrapper -->
+        <!-- </div> end of container -->
+    <!-- </section>end of pricing section -->
+
+    <!-- section -->
+    <!-- <section class="section-sm bg-primary"> -->
+        <!-- container -->
+        <!-- <div class="container text-center text-sm-left"> -->
+            <!-- row -->
+            <!-- <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
+                </div> -->
+            <!-- </div> end of row -->
+        <!-- </div> end of container -->
+    <!-- </section> end of section -->
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container text-center">
+            <p class="section-subtitle">What Think Client/Course-mates About Me ?</p>
+            <h6 class="section-title mb-6">Testmonial</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">"Working with Stanley on my website was an incredible experience. Their keen eye for design, attention to detail, and understanding of user experience transformed my vision into a sleek, functional site. The final product not only looks amazing but also performs flawlessly. I highly recommend their web design services!"</p>
+                            <h6 class="testimonial-card-title">Emann</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img"
+                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">"Stanley handled our database management with exceptional skill and precision. They optimized our system for efficiency, ensuring data integrity and seamless access. Their proactive approach to problem-solving and deep technical knowledge made a significant difference in our operations. I’m confident our database is in the best possible hands. Highly recommended!"</p>
+                            <h6 class="testimonial-card-title">Ayomide</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
+
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Recent Posts?</p>
+            <h6 class="section-title mb-6">Blog</h6>
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="https://scontent.flos5-1.fna.fbcdn.net/v/t39.30808-6/452378112_122125657046325034_7995963129406622880_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH0fSUAs5SU7VAs3u2VdTPtTf0WTe8DpVVN_RZN7wOlVVVg2V4ajeda-EqSU4Vlfx-60D6TgX3-Qz0FoaYDFnDi&_nc_ohc=Jc9xHXDY8IYQ7kNvgE0XBQd&_nc_zt=23&_nc_ht=scontent.flos5-1.fna&oh=00_AYA6H8YVm3QsG--ribyF2IAzMMbLxkmQKtT3SCf0U0XL1g&oe=66E48121" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">A replica of PagerLand Website</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Stanley Obitunwase</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 2</a>
+                            <a href="#"><i class="ti-comment"></i> 1</a>
+                        </p>
+                        <p>In web development, external CSS is a powerful tool that can significantly improve your website’s design and functionality. By using external stylesheets, you can keep your HTML clean and your styles organized, making your site easier to manage and scale.
+                            External CSS involves creating a separate CSS file, which contains all the styles for your website. This file is linked to your HTML documents using the <link> tag placed in the <head> section of your HTML. By keeping your CSS in a separate file, you enhance the separation between content (HTML) and presentation (CSS).</p>
+
+                        <!-- <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
+                        </p>
+                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
+                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p> -->
+
+                        <a href="https://web.facebook.com/permalink.php?story_fbid=pfbid0mu6qknVb3SvKUBX7xF1guvrufewQL5kJz9C5T81skQkxJgoiPS4rJgExDu8Xq8TVl&id=61559751033177" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-6/453259511_122127187226325034_4895168960312985698_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGdpxTHYBzRPiZywHErgGzo_R3o-_JY_BX9Hej78lj8FdLcoDWKJ678JocztMhvoI_O78i8YRmEcx1OAjTthvad&_nc_ohc=hb7Xi5qxp28Q7kNvgFAumFw&_nc_zt=23&_nc_ht=scontent.flos3-2.fna&_nc_gid=AFQN1GOuc5Y-htSiB2C3Uu3&oh=00_AYApW11Pz0DPxgvYvPOEFJm6zl--TR4NiFDyrn5LOhM_dg&oe=66E49861" class="blog-card-img"
+                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">A replica of Amazon Website</h6>
+
+                        <p class="blog-card-caption">
+                            <a href="#">By: Stanley Obitunwase</a>
+                            <a href="#"><i class="ti-heart text-danger"></i> 2</a>
+                            <a href="#"><i class="ti-comment"></i> 1</a>
+                        </p>
+
+                        <p>A full page of the Amazon home page website using HTML and CSS</p>
+
+                        <a href="https://web.facebook.com/permalink.php?story_fbid=pfbid0DN4QqenhuYg6G7MoqaPeHM6w8k37W81rcLCjGhvuzAC6tjj1UcBsY1fQ6fAb5iPpl&id=61559751033177" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email" requried>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6" class="form-control"
+                            placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; <a
+                    href="http://www.devcrud.com">DevCRUD</a> Distribution <a
+                    href="https://themewagon.com">ThemeWagon</a>
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://web.facebook.com/profile.php?id=61559751033177" class="link"><i class="ti-facebook"></i></a>
+                <a href="https://x.com/SObitunwase" class="link"><i class="ti-twitter-alt"></i></a>
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a> -->
+                <a href="https://pin.it/79Py42XeS" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="https://www.instagram.com/stanleyobitunwase?igsh=MWNramsyZGowaHk4&utm_source=qr" class="link"><i class="ti-instagram"></i></a>
+                <!-- <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a> -->
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
