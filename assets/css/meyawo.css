@@ -11132,7 +11132,7 @@ p {
   border-radius: 100px;
 }
 
-.service-card {
+/* .service-card {
   position: relative;
   min-height: 230px;
   border: 1px solid #dee2e6;
@@ -11145,9 +11145,6 @@ p {
 }
 
 .service-card .body img.icon {
-  margin-top: 40px;
-  width: 55px;
-  margin-bottom: 25px;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
 }
@@ -11186,6 +11183,11 @@ p {
   opacity: 1;
   visibility: visible;
 }
+
+.service-card:hover .overlay {
+  opacity: 1;
+} */
+
 
 /*/ portfolio wrapper */
 .portfolio-card {
